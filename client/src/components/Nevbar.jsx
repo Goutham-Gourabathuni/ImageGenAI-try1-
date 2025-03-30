@@ -16,8 +16,8 @@ export const Navbar = () => {
           <div></div>
         ) : (
           <div className="flex items-center gap-2 sm:gap-5">
-            <button className=" bg-zinc-800 text-white px-7 py-2  sm:px-10 rounded-full hover:bg-zinc-700 transition ">
-              Login
+            <button className=" bg-zinc-800 text-white px-7 py-2  sm:px-10 rounded-full hover:bg-zinc-700 transition" onClick={() => console.log("woopdi")} >
+               login
             </button>
           </div>
         )}
