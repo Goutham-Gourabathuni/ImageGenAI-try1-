@@ -3,7 +3,7 @@ import { assets } from '../assets/assets';
 import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
-  const [user, setUser] = useState(null); // ignore
+  const [user, setUser] = useState(false); // ignore
 
   return (
     <div className="flex items-center justify-between py-4">
@@ -16,7 +16,7 @@ export const Navbar = () => {
           <div></div>
         ) : (
           <div className="flex items-center gap-2 sm:gap-5">
-            <button className=" bg-zinc-800 text-white px-7 py-2 rounded-full hover:bg-zinc-700 transition ">
+            <button className=" bg-zinc-800 text-white px-7 py-2  sm:px-10 rounded-full hover:bg-zinc-700 transition ">
               Login
             </button>
           </div>
