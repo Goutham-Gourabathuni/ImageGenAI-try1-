@@ -16,7 +16,7 @@ export const Navbar = () => {
           <div></div>
         ) : (
           <div className="flex items-center gap-2 sm:gap-5">
-            <button className=" bg-4  ">
+            <button className=" bg-zinc-800 text-white px-7 py-2 rounded-md hover:bg-zinc-700 transition ">
               Login
             </button>
           </div>
